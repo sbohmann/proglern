@@ -5,11 +5,11 @@ function setup() {
     let bInput = document.getElementById('b')
     let cInput = document.getElementById('c')
     let dInput = document.getElementById('d')
-    let calculate = document.getElementById('calculate')
+    let calculateButton = document.getElementById('calculate')
     let resultView = document.getElementById('result')
     let result2View = document.getElementById('result2')
 
-    calculate.onclick = function() {
+    calculateButton.onclick = function() {
         let a = Number.parseInt(aInput.value);
         let b = Number.parseInt(bInput.value);
         let c = Number.parseInt(cInput.value);
